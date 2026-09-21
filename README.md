@@ -46,6 +46,24 @@
 
 ## 2. 编程语言
 
+### 视频课（按语言）
+
+这些链接用于跟做语法、调试和小项目；**语言规范与版本差异以官方文档为准**。播放与互动数据会变化，选课时优先看完整大纲、近期评论和源码是否可用。
+
+| 语言 | 视频课 | 适合阶段 |
+| --- | --- | --- |
+| Python | [黑马程序员 Python 600 集](https://www.bilibili.com/video/BV1ex411x7Em/) | 零基础到常用库、项目练习 |
+| C | [小甲鱼 C 语言课程](https://www.bilibili.com/video/BV1Ps411U7tS/) | 指针、内存、文件与基础算法 |
+| C++ | [黑马程序员 C++ 入门课程](https://www.bilibili.com/video/BV1et411b73Z/) | 面向对象、STL、工程基础 |
+| Java | [黑马程序员 Java 零基础](https://www.bilibili.com/video/BV1Cv411372m/) | Java 语法、集合、面向对象 |
+| JavaScript | [B 站官方学园 JavaScript 课程](https://www.bilibili.com/video/BV1GqsMz4EzD/) | DOM、异步、浏览器基础 |
+| TypeScript | [freeCodeCamp TypeScript Course](https://www.youtube.com/watch?v=30LWjhZzg50) | 类型系统与工程化；暂无来源明确的大型 B 站课程时使用 |
+| Rust | [Rust 权威指南配套课程](https://www.bilibili.com/video/BV1hp4y1k7SV/) | 所有权、借用、并发与 Cargo |
+| Go | [Go 语言入门实战课程](https://www.bilibili.com/video/BV1Rm421N7Jy/) | 语法、并发、Web 与工具链 |
+| R | [freeCodeCamp Learn R Programming](https://www.youtube.com/watch?v=eR-XRSKsuR4) | 统计计算、数据处理与可视化 |
+
+
+
 先选一门主力语言深入学习；其他语言以“能读、能写小项目”为目标。建议优先级：Python + C/C++，随后按方向补充。
 
 | 语言 | 适合方向 | 首选资料 |
@@ -71,6 +89,16 @@
 
 ## 3. 系统、硬件与网络
 
+### 视频课（按知识点）
+
+| 知识点 | 视频课 | 说明 |
+| --- | --- | --- |
+| 操作系统与 xv6 | [MIT 6.S081 中文字幕](https://www.bilibili.com/video/BV14h4oeAEvu/) | 配合 xv6 lab；重点是进程、虚拟内存和文件系统。 |
+| 计算机组成与体系结构 | [计算机组成原理微课堂](https://www.bilibili.com/video/BV1qG41197E4/) | 高播放的概念课；再回到 CS61C/CS:APP 做代码和实验。 |
+| 计算机网络 | [计算机网络原理课程](https://www.bilibili.com/video/BV1W84y1g75z/) | 配合 Socket 小项目理解 TCP/IP、HTTP 与 DNS。 |
+
+
+
 ### 操作系统与体系结构
 
 - [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)：进程、线程、虚拟内存、文件系统与并发。
@@ -89,6 +117,15 @@
 **阶段项目**：实现简易 Shell、线程池、KV 存储或基于 Socket 的聊天室；使用 profiler 找出并解释一个性能瓶颈。
 
 ## 4. 数据与 SQL
+
+### 视频课（按知识点）
+
+| 知识点 | 视频课 | 说明 |
+| --- | --- | --- |
+| SQL 入门与查询 | [SQL 基础与数据库开发课程](https://www.bilibili.com/video/BV1HE411j743/) | 跟着本地 PostgreSQL/MySQL 写 SELECT、JOIN、窗口函数。 |
+| 数据库系统原理 | [数据库原理复习课程](https://www.bilibili.com/video/BV1ud4y1s7A4/) | 用于建立索引、事务、恢复的整体框架；再学习 CMU 15-445。 |
+
+
 
 ### SQL 与关系数据库
 
@@ -109,6 +146,16 @@
 
 ## 5. 软件工程与云原生
 
+### 视频课（按知识点）
+
+| 知识点 | 视频课 | 说明 |
+| --- | --- | --- |
+| Git 与协作 | [Git/GitHub 实战课程](https://www.bilibili.com/video/BV1MU4y1Y7h5/) | 练习分支、rebase、冲突解决和 Pull Request。 |
+| Docker 容器化 | [Docker 入门到实践课程](https://www.bilibili.com/video/BV1sb411X7oe/) | 用自己的服务完成镜像、卷、网络和 compose。 |
+| Kubernetes 编排 | [Kubernetes 入门课程](https://www.bilibili.com/video/BV1eU4y1P7Qx/) | 写 Deployment、Service、ConfigMap、探针并部署到本地集群。 |
+
+
+
 - 架构与设计：模块边界、领域建模、接口契约、可观测性、限流与降级。
 - 测试与交付：单元/集成/E2E 测试、CI/CD、版本管理、灰度发布、回滚。
 - 容器与编排：[Docker Get Started](https://docs.docker.com/get-started/) · [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)。
@@ -118,6 +165,17 @@
 **阶段项目**：把一个服务容器化，加入健康检查、结构化日志、指标和 CI；部署到本地 Kubernetes 或云端沙箱。
 
 ## 6. AI、机器学习、大模型与智能体
+
+### 视频课（按知识点）
+
+| 知识点 | 视频课 | 说明 |
+| --- | --- | --- |
+| 深度学习与 PyTorch | [李沐《动手学深度学习》](https://www.bilibili.com/video/BV18h411r7Z7/) | 高互动完整课程；将每个章节代码在本地复现。 |
+| 机器学习理论 | [Stanford CS229 B 站检索](https://search.bilibili.com/all?keyword=Stanford%20CS229) | 课程镜像时效与版权不稳定，优先对照 CS229 官方讲义与作业。 |
+| LLM、RAG 与 Agent | [Agent/RAG 全栈实战课程](https://www.bilibili.com/video/BV1LY4y1d7cL/) | 重点验证工具调用、评测、权限和失败回退，而不只复刻 Demo。 |
+| LangGraph Agent | [LangGraph Agent 实战](https://www.bilibili.com/video/BV1HyJg6QEDW/) | 对照 LangGraph 官方文档完成状态管理与持久化。 |
+
+
 
 ### 机器学习与深度学习
 
@@ -146,6 +204,17 @@
 **阶段项目**：实现一个有评测集的 RAG 或 Agent 应用。它至少应包含检索/工具调用、失败回退、日志追踪和成本/质量评估。
 
 ## 7. GPU、NPU、并行计算与算子开发
+
+### 视频课（按知识点）
+
+| 知识点 | 视频课 | 说明 |
+| --- | --- | --- |
+| CUDA C++ 编程 | [NVIDIA CUDA C++ 课程](https://www.bilibili.com/video/BV1QvSKB4EMr/) | 练习线程层级、内存访问和 kernel；以 NVIDIA 文档与 samples 复核。 |
+| CUDA 性能优化 | [CUDA 编程与优化课程](https://www.bilibili.com/video/BV1sM4y1x7of/) | 用 Nsight Systems/Compute 复现性能测量，而非只比较单次时间。 |
+| Ascend C 算子开发 | [CANN 训练营：Ascend C 入门](https://www.bilibili.com/video/BV1sa4y1X74n/) | 对照 CANN Learning Hub 完成样例、tiling、调试和 benchmark。 |
+| CANN 架构与工具链 | [昇腾 CANN 官方视频](https://www.bilibili.com/video/BV1LAw7zwEnt/) | 了解当前 CANN 架构演进；具体 API 仍以当前版本官方文档为准。 |
+
+
 
 这一板块是“硬件架构 × 并行程序设计 × 深度学习框架”的交叉点。推荐先理解线程、缓存、矩阵乘法和性能分析，再写自定义算子。
 
